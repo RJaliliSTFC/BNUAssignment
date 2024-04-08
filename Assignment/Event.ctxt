@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Event
+comment1.params=Name\ base_cost_premium\ base_cost_normal\ dateInfo\ timeInfo
+comment1.target=Event(java.lang.String,\ int,\ int,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Event\r\n
+comment2.params=costNormal
+comment2.target=int\ changeCostNormal(int)
+comment3.params=premiumPrice
+comment3.target=int\ changeCostPremium(int)
+comment4.params=day\ month\ year
+comment4.target=java.lang.String\ checkDateValid(int,\ int,\ int)
+comment5.params=newDate
+comment5.target=void\ changeDate(java.lang.String)
+comment6.params=newTime
+comment6.target=void\ changeTime(java.lang.String)
+numComments=7

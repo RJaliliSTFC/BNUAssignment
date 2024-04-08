@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=UserList
+comment1.params=
+comment1.target=UserList()
+comment2.params=user
+comment2.target=void\ add(User)
+comment3.params=
+comment3.target=java.lang.String\ viewUserList()
+comment4.params=name
+comment4.target=void\ deleteUser(java.lang.String)
+comment5.params=name\ password
+comment5.target=void\ createUser(java.lang.String,\ java.lang.String)
+comment6.params=name
+comment6.target=User\ findUser(java.lang.String)
+comment7.params=name
+comment7.target=boolean\ checkExists(java.lang.String)
+comment8.params=code
+comment8.target=boolean\ checkIfManager(java.lang.String)
+comment9.params=
+comment9.target=void\ addUserData()
+numComments=10
