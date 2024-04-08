@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Promotion
+comment1.params=
+comment1.target=Promotion()
+comment2.params=promotion\ event
+comment2.target=void\ applyPromotion(java.lang.String,\ Event)
+comment3.params=promotion
+comment3.target=java.lang.String\ findPromotion(java.lang.String)
+comment4.params=
+comment4.target=void\ populatePromotions()
+numComments=5

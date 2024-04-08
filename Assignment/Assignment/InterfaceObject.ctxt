@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=InterfaceObject
+comment1.params=
+comment1.target=InterfaceObject()
+comment2.params=
+comment2.target=void\ login()
+comment3.params=user
+comment3.target=void\ userInterface(User)
+comment4.params=
+comment4.target=EventsList\ getEvents()
+comment5.params=
+comment5.target=User\ getUser()
+numComments=6

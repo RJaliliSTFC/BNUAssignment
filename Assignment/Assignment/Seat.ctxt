@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Seat
+comment0.text=\r\n\ Class\ for\ Seat\ objects\ which\ store\ location\ details\ and\ a\ boolean\ booked\ value\r\n
+comment1.params=row\ column
+comment1.target=Seat(java.lang.String,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Seat\r\n
+comment2.params=
+comment2.target=java.lang.String\ checkSeat()
+comment3.params=
+comment3.target=void\ bookSeat()
+comment4.params=
+comment4.target=void\ unbookSeat()
+numComments=5

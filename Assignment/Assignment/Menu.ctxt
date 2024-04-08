@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Menu
+comment1.params=
+comment1.target=Menu()
+comment2.params=
+comment2.target=void\ venueManagerMenu()
+comment3.params=
+comment3.target=void\ bookingAgentMenu()
+comment4.params=
+comment4.target=void\ customerMenu()
+comment5.params=
+comment5.target=void\ option1()
+comment6.params=
+comment6.target=void\ option2()
+comment7.params=user
+comment7.target=void\ menuSelector(User)
+numComments=8

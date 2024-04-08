@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=VenueManager
+comment1.params=Name\ Password\ code
+comment1.target=VenueManager(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ VenueManager\r\n
+comment2.params=code
+comment2.target=boolean\ checkCode(java.lang.String)
+numComments=3

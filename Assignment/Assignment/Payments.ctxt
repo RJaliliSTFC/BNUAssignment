@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Payments
+comment1.params=
+comment1.target=Payments()
+comment2.params=seatCost
+comment2.target=int\ updatePaymentValue(int)
+comment3.params=creditCardNumber
+comment3.target=boolean\ validateCreditCardNumber(java.lang.String)
+comment4.params=card
+comment4.target=java.lang.String\ checkCardDetails(java.lang.String)
+comment5.params=newCVC
+comment5.target=java.lang.String\ updateCVC(int)
+comment6.params=expiryMonth\ expiryYear
+comment6.target=boolean\ validateExpiryDate(int,\ int)
+comment7.params=month\ year
+comment7.target=java.lang.String\ updateExpDate(int,\ int)
+comment8.params=Cost
+comment8.target=void\ payment(int)
+numComments=9
