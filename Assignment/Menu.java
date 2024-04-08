@@ -5,13 +5,16 @@ public class Menu
     public static EventsList Events;
     static User user;
     static Booking booking;
+    public static Event chosenEvent;
 
+    
     public Menu()
     {
         readln = new Reader();
         Events = InterfaceObject.getEvents();
         user = InterfaceObject.getUser();
-    }
+        Event chosenEvent = null;
+        }
     
     public void venueManagerMenu()
     {
@@ -22,7 +25,9 @@ public class Menu
         String reply = readln.readString();
         if (reply.equals("1")){
             option1();
-            
+        }
+        else if (reply.equals("4")){
+            System.out.println("Currently there are " + Promotion.Promotions.size() + " promotions available");
         }
     }
     
@@ -80,7 +85,7 @@ public class Menu
                         System.out.println("Incorrect time entered, please check and try again");
                     }
                     System.out.println("Time Selected, Moving to booking menu");
-                    Event chosenEvent = Events.selectEvent(showReply, date, time);
+                    chosenEvent = Events.selectEvent(showReply, date, time);
                     booking.seatSelection(chosenEvent);
                     validShow = true;
                 }

@@ -62,7 +62,7 @@ public class Booking
             }
             regularSeats ++;
         }
-        int totalCost = event.premiumTicket * premiumSeats + event.normalTicket * regularSeats;
+        int totalCost = menu.chosenEvent.premiumTicket * premiumSeats + menu.chosenEvent.normalTicket * regularSeats;
         
         System.out.println("Your seats have been temporarily booked");
         System.out.println("The total cost will be " + totalCost);
@@ -81,6 +81,6 @@ public class Booking
         if (finalconfirmation.equals("1")){
             menu.menuSelector(user);
         }
-        seatSelection(event);
+        seatSelection(this.event);
     }
 }

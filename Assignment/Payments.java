@@ -14,7 +14,8 @@ public class Payments
 
 //constructor
     public Payments()
-    {
+    {   
+        readln = new Reader();
         paymentValue = 0;
         cardNumber = "";
         expiryDate = "";

@@ -1,4 +1,5 @@
 import java.util.ArrayList; // import the ArrayList class
+import java.util.Iterator;
 
 public class UserList
 {
@@ -27,11 +28,12 @@ public class UserList
         return "test";
     }
     
-    public void deleteUser(String name)
-    {
-        for (User userName : Users){
-            if (userName.Username.equalsIgnoreCase(name)) {
-                Users.remove(userName);
+    public void deleteUser(String name) {
+        Iterator<User> iterator = Users.iterator();
+        while (iterator.hasNext()) {
+            User user = iterator.next();
+            if (user.Username.equalsIgnoreCase(name)) {
+                iterator.remove();
             }
         }
     }

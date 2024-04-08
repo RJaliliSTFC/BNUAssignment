@@ -1,4 +1,5 @@
 import java.util.ArrayList; // import the ArrayList class
+import java.util.Iterator;
 
 // holds data on list of events
 public class EventsList
@@ -27,14 +28,16 @@ public class EventsList
         Events.add(newEvent);
     }
     
-    public void deleteEvent(String Name){
-        for (Event i : Events) {
-            if (i.name.toLowerCase() == Name.toLowerCase()) {
-                Events.remove(i);
+    public void deleteEvent(String Name) {
+        Iterator<Event> iterator = Events.iterator();
+        while (iterator.hasNext()) {
+            Event event = iterator.next();
+            if (event.name.equalsIgnoreCase(Name)) {
+                iterator.remove();
             }
         }
     }
-    
+
     public void viewEvent(String Name) {
         for (Event i : Events) {
             if (i.name.equalsIgnoreCase(Name)) {
